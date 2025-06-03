@@ -1,0 +1,48 @@
+<div class="grd">
+	<a class="ins" href="#"><i class="fa-brands fa-instagram"></i> instagram</a>
+	<a class="telegram" href="#"><i class="fa-brands fa-telegram"></i> telegram</a>
+	<a style="background:#0086c7;" href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+	<a style="background:#00a52b;" href="#"><i class="fa-brands fa-whatsapp"></i> whatsapp</a>
+	<a style="background:#333;" href="#"><i class="fa-brands fa-amazon"></i> Amazon</a>
+	<a style="background:#c7007b;" href="#"><i class="fa-brands fa-google"></i> Google</a>
+
+</div>
+<style>
+	.grd {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px 20px;
+		align-items: center;
+		font-family: sans Sherif;
+	}
+
+	.grd a {
+		padding: 10px 20px;
+		color: white;
+		font-size: 18px;
+		border-radius: 3px;
+		font-weight: 600;
+		text-decoration: none;
+		text-transform: capitalize;
+	}
+
+	@media screen and (min-width:370px) {
+		.grd {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	.grd .fa-brands {
+		border-right: 1px solid #ccc;
+		padding-right: 3px;
+	}
+
+	.ins {
+		background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+	}
+
+	.telegram {
+		background: #0099e4;
+	}
+</style>
