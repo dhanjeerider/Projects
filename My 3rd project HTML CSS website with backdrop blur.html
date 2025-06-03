@@ -1,0 +1,364 @@
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css" />
+<meta charset="UTF-8">
+<title>Backdrop website</title>
+<style>
+  body {
+    font-family: open sans;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* lota is my favourite class all elements comes under this class */
+  #lota {
+    background: url('https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    animation: Chenge 3s infinite;
+    scroll-behavior: smooth;
+  }
+
+  #lota nav {
+    display: flex;
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    z-index: 292020;
+    border-bottom: .6px solid lightblue;
+  }
+
+  #lota nav .logo {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+  }
+
+  #lota .hero {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: .8px solid white;
+    border-radius: 15px;
+    width: 75%;
+    margin: 60px auto;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    max-width: 600px;
+    min-width: 250px;
+    align-items: center;
+  }
+
+  #lota .hero:hover {
+    backdrop-filter: blur(10px);
+    transition: .4s;
+    transform: translateY(-15px);
+  }
+
+  #lota .hero img {
+    width: 40%;
+    border-radius: 50%;
+    border: 3px double gold;
+    padding: 3px;
+    margin: auto;
+  }
+
+  #lota .hero p a {
+    margin: 0px 10px;
+    color: white;
+    font-size: 140%;
+  }
+
+  #lota .hero p a:hover {
+    border: 1px solid white;
+    padding: 5px 7px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #e300ff, blue, cyan);
+    transition: .2s;
+  }
+
+  @media only screen and (min-width: 600px) {
+    #hm {
+      display: flex;
+      overflow-x: auto;
+      gap: 50px;
+    }
+
+    #lota .blog {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #lota .blog {
+      flex-direction: column;
+    }
+  }
+
+  #lota .blog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  #lota .blog img {
+    width: 100%;
+    box-shadow: 0px 1px 8px #40cbff8f;
+    border-radius: 5px;
+    aspect-ratio: 16/9;
+  }
+
+  #lota .blog .pst {
+    background: transparent;
+    backdrop-filter: blur(13px);
+    border: .8px solid #ccc;
+    padding: 8px;
+    border-radius: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 400px;
+  }
+
+  #lota .blog .pst h2 {
+    font-size: 22px;
+  }
+
+  #lota .blog .pst:hover {
+    backdrop-filter: blur(20px);
+    transition: .4s;
+    transform: translateY(-10px);
+  }
+
+  .heading {
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+  }
+
+  @keyframes rotateHue {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+</style>
+
+<body>
+
+  <div id="lota">
+    <nav>
+      <a class="logo" href="#">Dk technozone</a>
+
+      <!--  <ul class="action menus">
+         <li>Home</li>
+         
+      
+    
+  </ul>  -->
+
+      <i class="click fa-solid fa-bars"></i>
+
+    </nav>
+
+    <section id="hm">
+
+      <div class="hero" data-aos="zoom-in-up">
+
+        <img src="https://img.freepik.com/free-photo/androgynous-avatar-non-binary-queer-person_23-2151100226.jpg?t=st=1710506247~exp=1710509847~hmac=3edf6d9586da99de9ebbefca56a1eb8cf69fe148b63b7e9f7aac0a2aaced3495&w=1060" alt="me">
+        <h2> Dhanjee devloper <i class="fa-light fa-sm fa-badge-check"></i></h2>
+        <p> i am professional in git and GitHub and i love codding </p>
+
+        <p> <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </p>
+
+      </div>
+
+      <div data-aos="flip-up" class="hero">
+        <img src="https://img.freepik.com/free-photo/3d-render-little-boy-with-eyeglasses-blue-shirt_1142-50994.jpg?t=st=1710506255~exp=1710509855~hmac=ab8de86cc33ecf5e835622fef3265ee7d72f15ba231203a9093d61d1fdd35974&w=1060" alt="me">
+        <h2> Rahul Gandhi <i class="fa-light fa-sm fa-badge-check"></i></h2>
+        <p> i am professional in HTML and i love codding </p>
+
+        <p> <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </p>
+
+      </div>
+
+      <div class="hero" data-aos="fade-up" in-up">
+
+        <img src="https://img.freepik.com/free-photo/portrait-beautiful-young-woman-with-curly-hair-brown-hat_1142-42780.jpg?t=st=1710506261~exp=1710509861~hmac=bf57e8a85ba7d8a9c85a412630a8ccaf6fda2828da9c1e0e7056c04690c5bc76&w=1060" alt="me">
+        <h2> jasika sen <i class="fa-light fa-sm fa-badge-check"></i></h2>
+        <p> i am professional in css and i love codding </p>
+
+        <p> <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </p>
+
+      </div>
+
+      <div class="hero" data-aos="fade-up" in-up">
+
+        <img src="https://img.freepik.com/premium-photo/memoji-handsome-guy-man-with-glasses-white-background-emoji-cartoon-character_826801-6953.jpg?w=1060" alt="me">
+        <h2> Badri vishal <i class="fa-light fa-sm fa-badge-check"></i></h2>
+        <p> i am professional in javascript and i love codding </p>
+
+        <p> <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </p>
+
+      </div>
+      <div class="hero" data-aos="zoom-in-up" in-up">
+
+        <img src="https://img.freepik.com/free-photo/portrait-beautiful-young-woman-with-curly-hair-brown-hat_1142-42780.jpg?t=st=1710506261~exp=1710509861~hmac=bf57e8a85ba7d8a9c85a412630a8ccaf6fda2828da9c1e0e7056c04690c5bc76&w=1060" alt="me">
+        <h2> Julie Julie <i class="fa-light fa-sm fa-badge-check"></i></h2>
+        <p> i am professional in python and i love codding </p>
+
+        <p> <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </p>
+
+      </div>
+      <div class="hero" data-aos="flip-down" in-up">
+
+        <img src="https://img.freepik.com/premium-photo/memoji-happy-man-white-background-emoji_826801-6836.jpg?w=1060" alt="me">
+        <h2> plum ferari <i class="fa-light fa-sm fa-badge-check"></i></h2>
+        <p> i am professional in bootstrap and i love codding </p>
+
+        <p> <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </p>
+
+      </div>
+      <div class="hero" data-aos="zoom-in-up" in-up">
+
+        <img src="https://img.freepik.com/free-photo/3d-cartoon-style-character_23-2151034097.jpg?t=st=1710506273~exp=1710509873~hmac=195da987c53226e2a58eadd37a8a86a420cc8752a6a23e7e2e7efdf60d3f1fe3&w=1060" alt="me">
+        <h2> Rose disoja <i class="fa-light fa-sm fa-badge-check"></i></h2>
+        <p> i am professional in nothing and still i love codding </p>
+
+        <p> <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </p>
+
+      </div>
+    </section>
+
+    <!-- blog posts -->
+
+    <h2 class="heading">Article On AI</h2>
+
+    <article class="blog">
+      <div class="pst" data-aos="flip-up"> <img src="https://img.freepik.com/premium-photo/businessman-touching-digital-chatbot-provide-access-information-data-online-network-application-global-connection-ai-artificial-intelligence-innovation-technology_818293-22.jpg?w=1060" alt="image">
+
+        <h2>this is an example of titles</h2>
+
+        <p>nonumes lacinia curabitur vis voluptaria feugiat tempor gubergren senectus vivendo mi impetus theophrastus accusata errem</p>
+      </div>
+      <div class="pst" data-aos="flip-up"> <img src="https://img.freepik.com/premium-photo/ai-technology-concept-hand-holdings-ai-cpu-conceptual-photo-futuristic-tone_34048-2402.jpg?w=1060" alt="image">
+
+        <h2>this is an example of titles</h2>
+
+        <p>nonumes lacinia curabitur vis voluptaria feugiat tempor gubergren senectus vivendo mi impetus theophrastus accusata errem</p>
+      </div>
+      <div class="pst" data-aos="flip-up"> <img src="https://img.freepik.com/premium-photo/future-artificial-intelligence-robot-network-system-background_432372-88.jpg?w=1060" alt="image">
+
+        <h2>this is an example of titles</h2>
+
+        <p>nonumes lacinia curabitur vis voluptaria feugiat tempor gubergren senectus vivendo mi impetus theophrastus accusata errem</p>
+      </div>
+      <div class="pst" data-aos="flip-up"> <img src="https://img.freepik.com/premium-photo/future-artificial-intelligence-robot_31965-6161.jpg?w=1060" alt="image">
+
+        <h2>this is an example of titles</h2>
+
+        <p>nonumes lacinia curabitur vis voluptaria feugiat tempor gubergren senectus vivendo mi impetus theophrastus accusata errem</p>
+      </div>
+      <div class="pst" data-aos="flip-up"> <img src="https://img.freepik.com/premium-photo/big-data-ai-analysis-generative-ai_28914-16644.jpg?w=1060" alt="image">
+
+        <h2>this is an example of titles</h2>
+
+        <p>nonumes lacinia curabitur vis voluptaria feugiat tempor gubergren senectus vivendo mi impetus theophrastus accusata errem</p>
+      </div>
+      <div class="pst" data-aos="flip-up"> <img src="https://img.freepik.com/free-photo/illuminated-pipes-form-industrial-ballet-light-darkness_157027-4045.jpg?t=st=1710513312~exp=1710516912~hmac=d4498745636a3cdd0f5ae7d2f590e26f28dc4c79c4d23059da9a59329bccc52f&w=1060" alt="image">
+
+        <h2>this is an example of titles</h2>
+
+        <p>nonumes lacinia curabitur vis voluptaria feugiat tempor gubergren senectus vivendo mi impetus theophrastus accusata errem</p>
+      </div>
+
+    </article>
+
+    </br>
+    </br>
+
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      delay: 300,
+    });
+  </script>
+
+</body>
