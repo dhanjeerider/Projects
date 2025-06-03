@@ -1,0 +1,88 @@
+<style>
+	/* Made by DK technozone*/
+	.dbtn {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	/* Button Styling */
+	.btn {
+		padding: 12px 32px;
+		border-radius: 4px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: white;
+		font-size: 17px;
+		margin: 10px auto;
+		animation: bump 1s infinite alternate;
+	}
+
+	/* Made by dhanjeerider.shop */
+	.btn:hover {
+		transition: 0.5s;
+		filter: saturate(4);
+		transform: translateY(-5px);
+	}
+
+	/* Color Variations */
+	.blue {
+		background: linear-gradient(45deg, #000125, #0e00c7);
+		box-shadow: 0px 6px 15px -2px #2b58ff;
+	}
+
+	.black {
+		background: linear-gradient(45deg, red, #000);
+		box-shadow: 0px 6px 15px -2px red;
+	}
+
+	.crimson {
+		background: linear-gradient(45deg, crimson, #1c0032);
+		box-shadow: 0px 6px 15px -2px crimson;
+	}
+
+	.green {
+		background: linear-gradient(45deg, #00ff42, #000);
+		box-shadow: 0px 6px 15px -2px green;
+	}
+
+	.violet {
+		background: linear-gradient(45deg, #4100cd, #0e002d);
+		box-shadow: 0px 6px 15px -2px #662bff;
+	}
+
+	.cyan {
+		background: linear-gradient(45deg, cyan, #00251c);
+		box-shadow: 0px 6px 15px -2px cyan;
+	}
+
+	/* Made by DK technozone  */
+	@keyframes bump {
+		0% {
+			filter: saturate(1);
+			background-size: 100%;
+		}
+
+		100% {
+			filter: saturate(2);
+			background-size: 140%;
+		}
+	}
+</style>
+<div class="dbtn">
+
+	<a class="btn blue" href="#">Button 1</a>
+
+	<a class="btn black" href="#">Button 2</a>
+
+	<a class="btn crimson" href="#">Button 3</a>
+
+	<a class="btn green" href="#">Button 4</a>
+
+	<a class="btn violet" href="#">Button 5</a>
+
+	<a class="btn cyan" href="#">Button 6</a>
+
+</div>
