@@ -1,0 +1,84 @@
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide"><span class="slide-number">1</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/783412952870117373/bd27afde-2345-476d-99bc-9ee40452906a.png" alt="Slide 1">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">2</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/615699148590749716/03ace1ca-ad7f-4fb6-9833-822913ce4820.png" alt="Slide 2">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">3</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/615699148590749716/ea0a9662-877b-40c2-94eb-7aa885447fd9.png" alt="Slide 3">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">4</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/783412952870117373/bd27afde-2345-476d-99bc-9ee40452906a.png" alt="Slide 4">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">5</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/615699148590749716/03ace1ca-ad7f-4fb6-9833-822913ce4820.png" alt="Slide 5">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">6</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/615699148590749716/ea0a9662-877b-40c2-94eb-7aa885447fd9.png" alt="Slide 6">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">7</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/783412952870117373/bd27afde-2345-476d-99bc-9ee40452906a.png" alt="Slide 7">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">8</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/615699148590749716/03ace1ca-ad7f-4fb6-9833-822913ce4820.png" alt="Slide 8">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">9</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/615699148590749716/ea0a9662-877b-40c2-94eb-7aa885447fd9.png" alt="Slide 9">
+    </div>
+    <div class="swiper-slide"><span class="slide-number">10</span>
+      <img src="https://image.tensorartassets.com/cdn-cgi/image/anim=false,w=600,f=avif/posts/images/783412952870117373/bd27afde-2345-476d-99bc-9ee40452906a.png" alt="Slide 10">
+    </div>
+  </div>
+</div>
+
+<style>
+  .swiper {
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .swiper-slide {
+    min-width: 120px !important;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    scroll-snap-align: center;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: center;
+  }
+
+  .slide-number {
+    position: absolute;
+    bottom: 0px;
+    left: -22px;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-size: 88px;
+    font-weight: bold;
+    padding: 3px 7px;
+    border-radius: 5px;
+  }
+</style>
