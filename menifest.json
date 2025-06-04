@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "id": "/",
+  "name": "Dk Technozone",
+  "short_name": "Dk Technozone",
+  "description": "Premium blogger template, blogging tips wordpress website design service",
+  "start_url": "https://www.dktechnozone.in/",
+  "dir": "auto",
+  "lang": "en-US",
+  "orientation": "any",
+  "display": "standalone",
+  "prefer_related_applications": false,
+  "background_color": "#000",
+  "theme_color": "#000",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTHHQdzMmvQRedasgGBBynzzeaOXzdcc9Kw8_vQiSXQl2_Di059CqZKn809Az8AH4kOrs0rl5MRAnNoMsR6zy-0SNPAyqzjrYZ3ieCVaNI-4RF0RFJTmQJ5JhbhFYwFgyxjwj3G7Y7Ud4KMcZr_O_crm9QqCDAXlRriOgwJIdTZijeTejEOwpyq-2UyPI/s16/1000087403.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivdcLiiKgProRN3zQXhsm4LSi2wsejzcDMOB19ZcGCQZP5NzODs2bnzWY6K4p87xBqqlgWQJ_kJ9JHtOnyye0744Yu3yR6kIKpBCwVJLiB5QVUenB3DE7EGvKMlW_SyNOdC7vIChbeI1vtdAGCYOByRoC0SRAe6IUWzi-pb9s0CQDdR5rSV4Pe72snjQs/s32/1000087409.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6SDPh8abcVYy16f_pxIA66GXMdAwdncyma4mVIDfPEXaoqyqjtMLL8rKE0b_2lo7VUwf4gu58SNWJrNmd6Pu8y6Wal5KyutPoDeperwH1M7rqqNJQNhSuUV6k_fQxfTiBAxO_iGUQubdSHvuQdQn023HECzsuv_a_IrurEOgjXITF020TniFuTu_1fKs/s48/1000087416.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAfanOaqU8DFJamzjZsg_6wXFw2qb1twY_F2ZXFX0a0oSZs-UTSUreWz8f6dsFuV0EYwhK6fIfhXWkjzxegiZL4dJsuse13FP4knOI7UnAdGL_PFmoWu2kcMNIaLZ6bsQiceRSL_6OSVEhrDvXeJ-v9iU6Jjdz_co__wLVNF9NfdObI_q3rWaj7cwI/s72/72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj89qlHGg1C8w_WLFheduFLqTAloPAHy09Hv_3U_Vd2I26i5s_ZMXbh4PAl-IQLwvPF5617sl3yWZFqrK0B3Q6h10D38GSNzQc2wXyqVSlDaO6xxCQ677N1B5l-rPFMhpAY5wGZ5QlHvh4T4v8zORvZVURIxy1nWuFCPfi0-fIYKG_yD8MYODeu_kXEiso/s57/1000087407.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQc-treJCyhwNvgZ5mWWqP4jRwaW_QFTgW2hNURDED8Wq72yMMTATJZctNvC50R1ccRHzwKhQ1pB5GvsdO_9PJTYymmp_kBZB4i1FPY1gw1vZZaBiOs2aILl6bxLHn9Q9DANenyQdoiuis1YPROB7CSIBh4eC3th2UPMf-Zfionw7K_Ww3cq3-Zswng24/s76/1000087408.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI25DQrWcXLL4HskOnObLRhOaDTvELUddN89suEygw63MrQmsKFy9gCzMNtq0GNlVnxD27wgz7C1_UVAcNuubeuR7N9sCgtgQudyyIZII6EHSwbLVe4cEnRajiel8MkmouufyB_uH1WFHQz524xf8R3z8Nn0XOEULeFbiJJBBzTYHl8XXOnaGwwJhDooo/s70/1000087402.png",
+      "sizes": "70x70",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Gz2xX0Bts18lHuCybR9W3nrY6GwpYAi8VRq-guQ93oN0nfgYGJ32T5wVyy0SRWeS9XzOug9Vpgkum8xLYbTi6YK1SBJWitFhFxYNcfwEKMfi-A2rnrb8YYQ9khbu5_XMxfVF46yS6PgcBIocS4VBxVEbyrC6JkAR4UjxPhpIfcTDkIcImD462kf3Xsg/s310/1000087413.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSEF1ef89EQW2IJxOvLdo9g4Iz7phCXhe9WSRehyJOTor-2AAWxKGybFqTfXv-7URDfKg2avyO4vW3-mSTbHCrzhYhZy97JzzSV9dSUQ8wJVJtPF3mj8UC0LrX8s38DX8iDaO7qmxJ7-ob7HTb_SGmAsEU6yEt0YDOZEzZ4hEVNt4t-yNDB4TbbQwF1PE/s144/1000087414.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5UBtv0ljO3qR8Ve9dW6o0GtaWYOVhMmirrXEaB_zrwOTOMPDz-wGhJwdHseNIl6xx6rJkMzMMKPC9qAKDnD2scnvGr3lzxxh-dKzyX9t7XburNyPMldAxgehumlc7BH_L4p_AjKMGxsJvmezC6diS20xJUTqVjyxLMTMc9F3INB1hivc1fz1pSucxD0Q/s152/1000087398.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-dzzawJDxNI0yNXnyj77vIA3izUlK44Qu1oIrs4dxunhLApsJ8SVsyeKGTuSCDPiTcLPz2d602qWnxV_4URPHEtU6AZh1GtFZ1gz0wf6NF64V8QK-4xUR-M9lwng4N0SkVM2TOwVLqnImN9bvcejezDbjwU-Gl3XIPTuvzeBGqTUT3A27xxa_LbYVJXw/s180/1000087415.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB8xXdy5nlz5l0NuAddzFQ7UAlpHTWeFojJt9CTcBpCsr8cQeHo-Lwmtl98Wox0P0MUEadHk46Arftwr88jhu4agH1w9CoeCD_frZiU55sqmnGpEl7PAKLr09tcMoLWqDl0TG00x-Ww1LkiWi8pPv8eKbu9bpJNAPLB0fyQjVu-igAGKW0lt1_7zBIQ0w/s192/1000087392.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpjrPMTmmYTbCKHgSwVtJzVbw_gfkGOYCZrmYnosn6ir9TVYr_QQaLNDt5_M_0QUtbsQN_NBmzlcDdV20hgwZdKvZpllPWzyR_f4zzGLt_LCLCEMHNll88yYVa9h5xP9jmcdT4yWOsTP3EqwzF2Yozqc33uVnhQTNPWIiUto3ZY1wMCV4dhqrs5g42UR8/s114/1000087400.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO8Cg9WFl_KjzJiM7fgzQ1r1HMsJi9w2TMeSoNyMgE4XJ154WJfBqzhy1G3xKtT1UXdrDOZ49Miz7_64TGaHsIB8-zSYUl4C8kjU22pY07GttGPaTnBRdXWouNHgCvLuK1i5E_M98hZcpzH04f2cuLHgak_mhkS-BTCX7Nn3qN5TrFnz3gWPoPQblmpuI/s144/1000087411.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEHexaQNCgJ_NnQE2SdLX8yxXmvtCS6csVCio8ZW5_yt8ORjPDojdck46Q5vsKEmh7xrs1ejQPR3fmvDxAmceORdCNAv2Pdaic4LzYnmrl345sOlqNiN7g9TiIfvKM1SaU4j-PMA03TFmUg0cHIlPza7piKb8c1W6XF9LE-VSe5sgI2CJ6pg3GovQag6M/s1600/1000087438.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9-Aw8RWYRBN3z-ayDipRCTs_nAcANWiDM3M9ITMhO21hub3LD3MyK7buSG5S_alr9A7Ck0N_pQgoIUp89Tj5_j4OQyYNcmZiBgWfeFX5yjzHCY8WuXxQpiduciMCf1E1peSVGLq2T6GPRg4nQJtGkSw3jQSH4Bi5n5zT4JVuZgW9fGfKzkmreAvVCgsA/s1600/1000087435.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu9nnXima8iZfU3dJA32CK2EApQgnM8XtkgGwqAsi41Lx-whZi904aK1C3PaZluQgaFTayEcqkO1UyDxlaPcTOBwMl2Il1HciNAmK66SutOsQab1iUe6iE9XTeAb7GxLx7dKrLnQHwRCkOQ1fTaCdJynuKmgRF8HQim9Ejyq4OQZYPc54Ayy-Sawauc8E/s1600/1000087436.jpg",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPNYTbGprnj4473mgW1SD7zHCAjLY0A3wSRyaYRZZVz8FhzsIPN_MhJbvVq4vrcEKoamX8ZDn8PFBXS318Lx49JxLFD9_DnfN3lOZrs6Stud3tpSd9nTQrGzTlcnfQrKnchyFFJZnsUDSdxp0GIKQVOctFoniQ3ZcY8PDsQ7jEs3TioPtVhHXtJER-tnk/s1600/1000087437.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggEAx8W7-VVaOIgEy2IIqhe7UhhAy9tT1B9-S6FnBoSLDf1rLP9z4DE_G7kZ_NycxUeBua_AKrqW81IygOC9WfUpk_eKKcuGQIY-yuvTUMkGj83CYoTeGAz-qACvYQk_wGeQ6fr8pK0yMDl1zhDsuJ2QuCmg8mGLgnj9xjgXtEEFEAL1_9J7PZ106z6_4/s1600/1000087434.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Shortcut 1",
+      "short_name": "My Shortcut 1",
+      "description": "My Shortcut 1 description goes here...",
+      "url": "https://www.dktechnozone.in/",
+      "icons": [
+        {
+          "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGfHx86Q32rzDYfelCaOAO1Beb3gpCvg44LlO1e1Ih1SiVKFYL-1dJdFGmw07HI6QY-zzaGAF7WpHA3bqn-2GkJfUxdEuzLtfFkCleaEN5IU23lD_nKJljrL1xhn-ly9X7AfitVZN5pxK9Owxurf_e4Wjp2RaGVFQxOnkFivc3MFMHdvZaMibwX3CJgtY/s96/1000087418.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "My Shortcut 2",
+      "short_name": "My Shortcut 2",
+      "description": "My Shortcut 2 description goes here...",
+      "url": "https://www.dktechnozone.in/",
+      "icons": [
+        {
+          "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGfHx86Q32rzDYfelCaOAO1Beb3gpCvg44LlO1e1Ih1SiVKFYL-1dJdFGmw07HI6QY-zzaGAF7WpHA3bqn-2GkJfUxdEuzLtfFkCleaEN5IU23lD_nKJljrL1xhn-ly9X7AfitVZN5pxK9Owxurf_e4Wjp2RaGVFQxOnkFivc3MFMHdvZaMibwX3CJgtY/s96/1000087418.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
