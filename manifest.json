@@ -123,10 +123,10 @@
   ],
   "shortcuts": [
     {
-      "name": "My Shortcut 1",
-      "short_name": "My Shortcut 1",
-      "description": "My Shortcut 1 description goes here...",
-      "url": "https://www.dktechnozone.in/",
+      "name": "Visit shop",
+      "short_name": "visit shop website",
+      "description": "get premium theme now",
+      "url": "https://dhanjeerider.shop/",
       "icons": [
         {
           "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGfHx86Q32rzDYfelCaOAO1Beb3gpCvg44LlO1e1Ih1SiVKFYL-1dJdFGmw07HI6QY-zzaGAF7WpHA3bqn-2GkJfUxdEuzLtfFkCleaEN5IU23lD_nKJljrL1xhn-ly9X7AfitVZN5pxK9Owxurf_e4Wjp2RaGVFQxOnkFivc3MFMHdvZaMibwX3CJgtY/s96/1000087418.png",
@@ -135,10 +135,10 @@
       ]
     },
     {
-      "name": "My Shortcut 2",
-      "short_name": "My Shortcut 2",
-      "description": "My Shortcut 2 description goes here...",
-      "url": "https://www.dktechnozone.in/",
+      "name": "Join telegram",
+      "short_name": "Join telegram",
+      "description": "Join our telegram chennal for lastest themes updates",
+      "url": "https://t.me/dktechnozone",
       "icons": [
         {
           "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGfHx86Q32rzDYfelCaOAO1Beb3gpCvg44LlO1e1Ih1SiVKFYL-1dJdFGmw07HI6QY-zzaGAF7WpHA3bqn-2GkJfUxdEuzLtfFkCleaEN5IU23lD_nKJljrL1xhn-ly9X7AfitVZN5pxK9Owxurf_e4Wjp2RaGVFQxOnkFivc3MFMHdvZaMibwX3CJgtY/s96/1000087418.png",
