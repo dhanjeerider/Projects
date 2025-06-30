@@ -126,7 +126,7 @@
       "name": "shop",
       "short_name": "shop",
       "description": "My Shortcut 1 description goes here...",
-      "url": "https://dhanjeerider.shop",
+      "url": "https://dhanjeerider.shop?utm_source=homescreen",
       "icons": [
         {
           "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGfHx86Q32rzDYfelCaOAO1Beb3gpCvg44LlO1e1Ih1SiVKFYL-1dJdFGmw07HI6QY-zzaGAF7WpHA3bqn-2GkJfUxdEuzLtfFkCleaEN5IU23lD_nKJljrL1xhn-ly9X7AfitVZN5pxK9Owxurf_e4Wjp2RaGVFQxOnkFivc3MFMHdvZaMibwX3CJgtY/s96/1000087418.png",
@@ -138,7 +138,7 @@
       "name": "Dktechnozone",
       "short_name": "Dktechnozone",
       "description": "My Shortcut 2 description goes here...",
-      "url": "https://telegram.me/dktechnozone",
+      "url": "https://telegram.me/dktechnozone?utm_source=homescreen",
       "icons": [
         {
           "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGfHx86Q32rzDYfelCaOAO1Beb3gpCvg44LlO1e1Ih1SiVKFYL-1dJdFGmw07HI6QY-zzaGAF7WpHA3bqn-2GkJfUxdEuzLtfFkCleaEN5IU23lD_nKJljrL1xhn-ly9X7AfitVZN5pxK9Owxurf_e4Wjp2RaGVFQxOnkFivc3MFMHdvZaMibwX3CJgtY/s96/1000087418.png",
